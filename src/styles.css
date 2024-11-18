@@ -11,6 +11,12 @@ body {
   width: 100px;
   height: 100px;
 }
+
+.page_header  {
+    text-align:center;
+    font-weight:bold;
+    margin:1.5rem;
+}
 .center {
   display: flex;
   justify-content: center;
