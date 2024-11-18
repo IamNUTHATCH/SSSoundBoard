@@ -1,13 +1,28 @@
 body {
-    padding-top:2000px;
-    overflow-y:scroll;
+  font-family: sans-serif;
+  background-color: lavender;
 }
-main {
-    padding-top:5rem;
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
 }
-
-
-
-section {
-    margin-bottom:2rem;
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  min-width: 80px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 4px;
+  border: 1px solid plum;
+  cursor: pointer;
+  color: purple;
+  font-weight: 600;
 }
