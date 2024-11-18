@@ -1,6 +1,7 @@
 body {
   font-family: sans-serif;
   background-color: #556B2F;
+  text-align: center;
 }
 .container {
   position: absolute;
@@ -24,7 +25,7 @@ body {
 }
 button {
   min-width: 100px;
-  width: flex:
+  width: fit-content;
   height: 40px;
   margin-left: 10px;
   border-radius: 4px;
