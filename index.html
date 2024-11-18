@@ -3,6 +3,8 @@
   <head>
     <title>SSSoundBoard</title>
     <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
     <link rel="stylesheet" href="./src/styles.css" />
     <script type="text/javascript">
       function play_sound(clicked_id) {
@@ -12,15 +14,14 @@
     </script>
   </head>
 
-  <body>
-    <div class="container">
-      <div class="center">
-        <button id="hunk" onClick="play_sound(this.id)">hunk</button>
-        <button id="jens1" onClick="play_sound(this.id)">jens1</button>
-        <button id="jens2" onClick="play_sound(this.id)">jens2</button>
-        <button id="kater" onClick="play_sound(this.id)">kater</button>
-        <button id="meeuwkert" onClick="play_sound(this.id)">meeuwkert</button>
-      </div>
-    </div>
-  </body>
+  
+    <main role="main" class="container">
+        <div class="center">
+          <button id="hunk" onClick="play_sound(this.id)">hunk</button>
+          <button id="jens1" onClick="play_sound(this.id)">jens1</button>
+          <button id="jens2" onClick="play_sound(this.id)">jens2</button>
+          <button id="kater" onClick="play_sound(this.id)">kater</button>
+          <button id="meeuwkert" onClick="play_sound(this.id)">meeuwkert</button>
+        </div>
+    </main>
 </html>
